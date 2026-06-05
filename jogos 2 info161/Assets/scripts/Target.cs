@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class TargetSpawner : MonoBehaviour
+public class Target : MonoBehaviour
 {
     [HideInInspector]
     public TargetSpawner.SpawnPoint spawnPoint;
