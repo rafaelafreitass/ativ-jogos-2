@@ -56,7 +56,7 @@ public class Target : MonoBehaviour
         transform.position = newPos;
 
         // Rotação
-        transform.Rotate(Vector3.up, 180 * Time.deltaTime);
+    
     }
 
     void OnTriggerEnter(Collider other)
